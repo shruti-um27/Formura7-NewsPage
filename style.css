@@ -150,7 +150,7 @@ h1,h2,h3,h4,h5,h6,p,span,ul,li,a,div{
     padding: 10px;
 }
 
-.right button[type=submit]{
+.right form button[type=submit]{
     font-size: 30px;
     font-weight: 500;
     font-family:'Montserrat', sans-serif ;
@@ -162,5 +162,10 @@ h1,h2,h3,h4,h5,h6,p,span,ul,li,a,div{
     border: none;
     margin-right: 50px;
 } 
- 
+.right form input[type=file]{
+    color:#18d26e;
+    height: 50px;
+    
+}
+
  
