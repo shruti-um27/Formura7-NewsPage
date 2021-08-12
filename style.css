@@ -122,12 +122,6 @@ h1,h2,h3,h4,h5,h6,p,span,ul,li,a,div{
   margin-bottom: 15px;
   margin-top:15px;
 }
-.right img{
-    height:80px;
-    width:100px;
-    object-fit: cover;
-    border-radius: 50%;
-}
 .right form {
     display: flex;
     flex-direction:column ;
@@ -148,10 +142,12 @@ h1,h2,h3,h4,h5,h6,p,span,ul,li,a,div{
     font-weight: 500;
     font-family:'Montserrat', sans-serif ;
     padding: 10px;
+    border:none;
+    border:2px solid black;
 }
 
-.right form button[type=submit]{
-    font-size: 30px;
+.right form [type=submit]{
+    font-size: 24px;
     font-weight: 500;
     font-family:'Montserrat', sans-serif ;
     background-color: #18d26e!important;
@@ -161,11 +157,13 @@ h1,h2,h3,h4,h5,h6,p,span,ul,li,a,div{
     padding:10px;
     border: none;
     margin-right: 50px;
+    height: 60px;
+    width:120px;
 } 
 .right form input[type=file]{
     color:#18d26e;
     height: 50px;
-    
+    border:none;
 }
 
  
